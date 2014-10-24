@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>No Strings Attached - A JavaScript Demo</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="sphere.png">
+
+	<script src="script.js"></script>
+</head>
+
+<body onload="init();">
+
+<div id="container">
+
+<div id="intro" class="hidden"><div><div><span id="introText"></span></div></div></div>
+<div id="bounce" class="hidden"><img id="ball" src="ball.png" width="200" height="200" alt="ball"></div>
+
+<div id="credits" class="hidden">
+	<strong>&ldquo;No Strings Attached&rdquo;</strong><br>
+	Inspired by <a rel="external" href="http://en.wikipedia.org/wiki/Second_Reality">Second Reality</a><br><br>
+	<strong>Code</strong><br><a rel="external" href="http://lmadhavan.com">Madhavan Lakshminarayanan</a><br><br>
+	<strong>Graphics</strong><br><a rel="external" href="http://commons.wikimedia.org">Wikimedia Commons</a><br>and the public domain<br><br>
+	<strong>Music</strong><br><a rel="external" href="http://www.entropymusic.com">&ldquo;Iceland Remix&rdquo; - Positively Dark</a><br>
+</div>
+
+<div id="default" class="hidden"></div>
+<img src="sphere.png" class="hidden" alt="sphere">
+
+</div>
+
+<div id="footer">
+	<div id="debug"></div>
+	<audio autoplay>
+		<source src="iceland_remix.mp3" type="audio/mpeg">
+	</audio>
+</div>
+
+</body>
+
+</html>

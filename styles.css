@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+a {
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+#container {
+	width: 640px;
+	height: 480px;
+	background-color: black;
+	margin: auto;
+	overflow: hidden;
+}
+
+#intro {
+	background-image: url(space.gif);
+}
+
+#intro div {
+	display: table;
+	width: 640px;
+	height: 480px;
+}
+
+#intro div div {
+	display: table-cell;
+	color: white;
+	font: bold 24pt "Trebuchet MS", Verdana, helvetica;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#credits {
+	width: 640px;
+	height: 480px;
+	color: white;
+	font: 12pt "Trebuchet MS", Verdana, helvetica;
+	text-align: center;
+}
+
+#ball {
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#bobs {
+	width: 640px;
+	height: 480px;
+}
+
+.bob {
+	position: fixed;
+	width: 12px;
+	height: 12px;
+	border-left: 1px solid #808080;
+	border-top: 1px solid #808080;
+	border-right: 1px solid #505050;
+	border-bottom: 1px solid #505050;
+}
+
+.plasma {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+}
+
+#footer {
+	width: 640px;
+	margin: auto;
+	padding: 2px;
+	font: 10pt "Trebuchet MS", helvetica;
+	text-align: center;
+	color: white;
+}
